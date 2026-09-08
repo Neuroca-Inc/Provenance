@@ -1,126 +1,55 @@
-# Provenance
+# Neuroca Provenance
 
-Auditable lineage for Neuroca research, methods, artifacts, corrections, and downstream inheritance.
+**Auditable lineage, not a code warehouse.**
 
-This repository exists to answer a narrow question with exact coordinates:
+This repository answers:
 
-> **Where did this result, method, constraint, or research decision come from, what was its status at the time, and what later work is entitled to inherit from it?**
+> What existed, when did it exist, what was its status, where is the exact source, and what later work inherited from it?
 
-It is not a replacement for the source repositories. It is a custody layer across them.
+It deliberately does **not** mirror Neuroca's research or production repositories. Code, notebooks, datasets, large execution packages, and private source trees stay where they were created. This repository carries the evidence graph needed to locate and interpret them.
 
-## Core rule
+## Unified evidence surfaces
 
-**Inclusion is not authority.**
-
-A file can be historically important, superseded, rejected, stale, provisional, or merely a source anchor and still belong here. Authority is carried explicitly by status, lineage, hashes, exact source coordinates, and supersession records.
-
-The repository therefore preserves:
-
-- positive results;
-- failed and rejected branches;
-- corrections;
-- open burdens;
-- historical baselines;
-- exact Git milestones;
-- publication/DOI lineage;
-- methodology evolution;
-- source hashes for private or non-public artifacts that should not be copied into a public repository.
-
-## Current provenance spine
-
-```text
-VDM / primitive work
-    ↓
-CF000
-    ↓
-Farey remainder recursion
-    ↓
-CF19 / lifted-object construction
-    ↓
-Phase Calculus operator development
-    ↓
-Active-Study / Phase 5 / QBL / Orthad
-    ├── mathematical closure and downstream applications
-    └── research-practice formalization
-             ↓
-          ORCHESTRA
-             ↓
-     ancestor-custody formalization
-             ↓
-           Cairn
-```
-
-The mathematical and methodological lineages are coupled but not collapsed into one another.
-
-## Repository map
-
-| Path | Role |
+| Surface | What it preserves |
 |---|---|
-| `ledgers/` | Machine-readable provenance records and the analysis workbook |
-| `chronology/` | Human-readable research chronology |
-| `methodology/ORCHESTRA/` | Concrete ORCHESTRA methodology artifacts and lineage |
-| `methodology/Cairn/` | Cairn continuation frontier |
-| `records/` | Selected dated research records and evidence examples |
-| `source-index/` | Rules for handling private/internal source material |
-| `schemas/` | Status, entry, and classification contracts |
-| `hashes/` | SHA-256 anchors for original source bundles and selected files |
-| `scripts/` | Repository validation and deterministic hashing |
-| `docs/` | Authority, methodology, release-review, and repository documentation |
+| `ledgers/master-evidence-index.csv` | One cross-surface index spanning public releases, Git milestones, methodology, legacy manuscripts, and selected internal artifacts |
+| `public/reach/` | The supplied reach ODS plus normalized 188-record public Zenodo/GitHub release ledger |
+| `git-history/` | Major commit milestones and theory crosslinks from VDM, primitive bifurcation, Taoism/Active-Study, Cortex, and vdm_rt |
+| `chronology/` | Human research/dependency chronology |
+| `historical/legacy-cf/` | Complete metadata/hash index for the supplied legacy CF archive plus three decisive historical snapshots |
+| `methodology/ORCHESTRA/` | Decisive methodology documents only; package tools/scaffolding remain in the source archive |
+| `methodology/Cairn/` | The post-ORCHESTRA methodology frontier |
+| `records/` | A small number of dated/corrective research records whose historical wording itself is provenance evidence |
+| `source-index/` | Hash/source-coordinate custody for omitted private or bulky artifacts |
+| `ledgers/active-provenance-ledger.xlsx` | Human analysis view over the canonical CSV surfaces |
 
-## Canonical machine records
+## Public release corpus
 
-The CSV files are the canonical machine-readable surfaces.
+The supplied `20260907_reach.ods` contains **188 records**: **156 Zenodo** and **32 GitHub**, covering **2025-01-08 through 2026-09-04**. It is preserved unchanged under `public/reach/` and normalized to CSV for diffs and analysis.
 
-- `ledgers/git-milestones.csv`
-- `ledgers/git-crosslinks.csv`
-- `ledgers/methodology-lineage.csv`
-- `ledgers/source-artifact-index.csv`
-- `ledgers/provenance-candidates.csv`
+## Provenance rule
 
-`ledgers/active-provenance-ledger.xlsx` is the human analysis/view layer.
+Presence is not authority. Historical, rejected, superseded, open, working, and current records may all be present. Status and lineage determine authority.
 
-## Private-source policy
+When a result changes, preserve the old record and add the correction. Never clean the historical path to make the present look inevitable.
 
-The initial source review included material from a private internal standards/research repository.
+## What is intentionally omitted
 
-The private archives themselves are **not** copied here. Their SHA-256 hashes are retained in `hashes/SOURCE_ARCHIVES_SHA256SUMS.txt`. Only artifacts deliberately selected for provenance value are copied into the public-ready tree.
+- source-code mirrors;
+- notebook forests;
+- model/runtime binaries;
+- large datasets and experiment outputs;
+- full private internal bundles;
+- ORCHESTRA helper scripts and template scaffolding that are implementation details rather than lineage evidence.
 
-A private artifact can therefore be represented in three ways:
+Those remain recoverable through repository URLs, commit SHAs, archive hashes, package hashes, and source coordinates recorded here.
 
-1. **Included**: copied unchanged because its provenance role is clear.
-2. **Hash-only**: exact source coordinate and SHA-256 retained, bytes withheld.
-3. **Review required**: candidate indexed for deliberate later publication review.
+## Start here
 
-See `ledgers/source-artifact-index.csv`.
-
-## Append-only correction rule
-
-Do not rewrite an old result to make it agree with a later result.
-
-When a claim changes:
-
-1. preserve the old row/artifact;
-2. add the correcting or superseding row;
-3. link it explicitly;
-4. state what survives and what no longer controls.
-
-The history of error correction is part of the provenance.
-
-## Validation
-
-```bash
-python3 scripts/validate_repo.py
-python3 scripts/update_hashes.py --check
-```
-
-To intentionally refresh the selected-artifact hash manifest:
-
-```bash
-python3 scripts/update_hashes.py --write
-```
-
-## Public release state
-
-This tree is prepared as a public-ready provenance repository, but artifacts marked `HASH_ONLY`, `REVIEW_REQUIRED`, `WORKING_NOTE`, or `HISTORICAL_BASELINE` must retain those labels. Do not promote them merely because they are present here.
-
-See `docs/PUBLIC_RELEASE_REVIEW.md`.
+1. `ledgers/master-evidence-index.csv`
+2. `chronology/phase-calculus-chronology.md`
+3. `public/reach/major-public-milestones.csv`
+4. `git-history/git-milestones.csv`
+5. `ledgers/methodology-lineage.csv`
+6. `historical/legacy-cf/legacy-cf-index.csv`
+7. `source-index/source-artifact-index.csv`

@@ -1,18 +1,289 @@
 {
-  "schema_version": "1.0.0",
   "repository": "Neuroca-Inc/Provenance",
-  "prepared_date": "2026-09-07",
-  "purpose": "Auditable cross-project research, methodology, artifact, correction, and lineage custody.",
-  "canonical_machine_surfaces": [
-    "ledgers/git-milestones.csv",
-    "ledgers/git-crosslinks.csv",
-    "ledgers/methodology-lineage.csv",
-    "ledgers/source-artifact-index.csv",
-    "ledgers/provenance-candidates.csv"
-  ],
-  "analysis_surface": "ledgers/active-provenance-ledger.xlsx",
-  "source_archive_hash_manifest": "hashes/SOURCE_ARCHIVES_SHA256SUMS.txt",
-  "selected_artifact_hash_manifest": "hashes/SELECTED_ARTIFACTS_SHA256SUMS.txt",
-  "file_count_excluding_root_sha256sums": 224,
-  "privacy_model": "Private source archives are hash-anchored; only deliberately selected artifacts are copied."
+  "purpose": "thin cross-project provenance and custody graph",
+  "generated": "2026-09-07",
+  "evidence_rows": 274,
+  "file_count_excluding_manifest_and_sha256sums": 56,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "5a08520b7ac6092aa4e6e36912081284aca5476c2a14b21a67340ef91bed047a",
+      "size": 116
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "sha256": "4b9a927c0fe4c3db5b1b21b8ab0279e13335eb4c66290f966b3451b76f91b4f2",
+      "size": 333
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "2e4964ba4a24a33b05673e5997087833ef7d5067f2db1269e5534991b0315091",
+      "size": 50
+    },
+    {
+      "path": "README.md",
+      "sha256": "1407309bef0603ec9b61f26e84c50520f47662d1eafc96fb67f0072059cf6ff3",
+      "size": 2990
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "ff64a310aaa352dbfac389333b23aeb78bcd01b708ffd4becee9c34d536f41d6",
+      "size": 444
+    },
+    {
+      "path": "bootstrap.sh",
+      "sha256": "d44163746a0b5b10ee53a8713636d4be8453efa6afe2091a3dd53a2a1b340892",
+      "size": 200
+    },
+    {
+      "path": "chronology/phase-calculus-chronology.md",
+      "sha256": "ae1389b1095d7c5da0e2b715e937e5573da981e6e00bc20f2d98a7cfbadf23ac",
+      "size": 5586
+    },
+    {
+      "path": "docs/AUTHORITY_MODEL.md",
+      "sha256": "737772fdbd2d0b5ddde37a27b177af5cceeedb8a194621129db3216b07ca42a7",
+      "size": 1446
+    },
+    {
+      "path": "docs/PROVENANCE_METHOD.md",
+      "sha256": "c191153e81334dd98207d5cb02930a9cabdc0631064189357d5f7bec565ffedd",
+      "size": 1228
+    },
+    {
+      "path": "docs/PUBLIC_RELEASE_REVIEW.md",
+      "sha256": "d165b70556b9122e8d180dfb67b01c16dcc2489419c6103bfb881b18b9013039",
+      "size": 1214
+    },
+    {
+      "path": "docs/REPOSITORY_MAP.md",
+      "sha256": "8919c9792ef7b32ea3300f332fca39c25da07f7d624bf3a6f9e37e82b31fc252",
+      "size": 456
+    },
+    {
+      "path": "git-history/git-crosslinks.csv",
+      "sha256": "92b0b538499e5a9787de0ec47f80a231c12451b48454a785a8500c60c21059d6",
+      "size": 2503
+    },
+    {
+      "path": "git-history/git-milestones.csv",
+      "sha256": "fd3f1dface2a370fd1892b777bfc15d8e189774b27578b6e167fbed7ebd136cc",
+      "size": 21973
+    },
+    {
+      "path": "hashes/SELECTED_ARTIFACTS_SHA256SUMS.txt",
+      "sha256": "0f1b06ab18a6b9e1081eb00df37e1897c1ecc06ba9dc991555f7c2a784b727d3",
+      "size": 5183
+    },
+    {
+      "path": "hashes/SOURCE_ARCHIVES_SHA256SUMS.txt",
+      "sha256": "7a89cf8a5ad73ead3c40e0471e3d65b923c542b97b346c0bc70cc6c8dc27cd7e",
+      "size": 446
+    },
+    {
+      "path": "historical/legacy-cf/README.md",
+      "sha256": "0918bdb3adacd977f5e14ab6dd3a6ef8ec4863462eee65ddea55ff7fd38be79b",
+      "size": 676
+    },
+    {
+      "path": "historical/legacy-cf/anchors/CF000_Primitive_Distinguishability_and_the_Origin_of_Differentiability.md",
+      "sha256": "3c568c21d7264e3833a86907c346a084a663aa5957c4d6848be439c5e1e0ca5e",
+      "size": 65623
+    },
+    {
+      "path": "historical/legacy-cf/anchors/CF03_A8_Scaling_Hierarchical_Interfaces.md",
+      "sha256": "7221201ae024a7fef28429bf447effcf108beb984a3226d30ebd7ea7f4c6257b",
+      "size": 27777
+    },
+    {
+      "path": "historical/legacy-cf/anchors/CF10_Lattice_Fluids_Continuum_and_Regularity_Program.md",
+      "sha256": "25ee8971ca49a5a5c49eaa03b0a06c0e7c1a809a1aaa8069780a8caa6c60b322",
+      "size": 12125
+    },
+    {
+      "path": "historical/legacy-cf/legacy-cf-index.csv",
+      "sha256": "9ceae3e9f635accbaae15d922d58f331961fba13601b0deb03302b0241a56e25",
+      "size": 7223
+    },
+    {
+      "path": "ledgers/active-provenance-ledger.csv",
+      "sha256": "a05b942b92b16c3fe476123d4e3e9950e600a4f1a9983e5edbfda4d268164e18",
+      "size": 8911
+    },
+    {
+      "path": "ledgers/active-provenance-ledger.xlsx",
+      "sha256": "451950f13541106ee6c7bc4b9b55911d9f84e6aa23b45b199e869889633b0575",
+      "size": 99625
+    },
+    {
+      "path": "ledgers/master-evidence-index.csv",
+      "sha256": "a51fbd175c2177211d68051fbd53a8a04e1c0fe8601a473c0dad8f64087ef502",
+      "size": 71643
+    },
+    {
+      "path": "ledgers/methodology-lineage.csv",
+      "sha256": "50f4bb45698efd2cc2e66a2e3d9a030eca093b2115f912fdf885c5f2a77f41ed",
+      "size": 3434
+    },
+    {
+      "path": "ledgers/provenance-candidates.csv",
+      "sha256": "8a40e6d807d06d178711372f7df9a0c89d41c56ba6b21cb409abea7a6ae599bd",
+      "size": 1321
+    },
+    {
+      "path": "methodology/Cairn/README.md",
+      "sha256": "bf5d0eac3a51d39e20b760613801cf5917071aa041b5a25f057086b6d140bdc6",
+      "size": 602
+    },
+    {
+      "path": "methodology/ORCHESTRA/README.md",
+      "sha256": "83b6958ff9c2364147fada3a145de7c21fdc50443ae77bc3d055b8fa95a19e30",
+      "size": 1638
+    },
+    {
+      "path": "methodology/ORCHESTRA/artifact-index.csv",
+      "sha256": "fb5df580b2719c03fdafe72dc59a5d05988af26ca8c89ea5b59d0faff2d46b68",
+      "size": 1915
+    },
+    {
+      "path": "methodology/ORCHESTRA/documents/ANCESTOR_CUSTODY_WORKFLOW_UPGRADE_v1.0_README.md",
+      "sha256": "c732173ac006d8a086a1f3b39ef9c6180ed115bd2dbfd94a6585c410ff1c2cf6",
+      "size": 1247
+    },
+    {
+      "path": "methodology/ORCHESTRA/documents/ORCHESTRA_v2.0_AUTHORITY.md",
+      "sha256": "b5094ac2919bfce17c658ec7190d65854dd4bc0c4a31ee5785421bb211145120",
+      "size": 423
+    },
+    {
+      "path": "methodology/ORCHESTRA/documents/ORCHESTRA_v2.0_PUBLICATION_README.md",
+      "sha256": "fafdf17eedf7234d4f3b2f8387a45780455d75f2defafbd46d6a093ba3268de1",
+      "size": 3597
+    },
+    {
+      "path": "methodology/ORCHESTRA/documents/ORCHESTRA_v2.0_RELEASE_WORKFLOW.md",
+      "sha256": "cb7f55d5858f6896696b59bce4b358b2f4f8c2c7948c8ec8509af8801ce13770",
+      "size": 1534
+    },
+    {
+      "path": "methodology/ORCHESTRA/documents/ORCHESTRA_v2.0_RESEARCH_PACKAGE_README.md",
+      "sha256": "e41e22a79c232666d2005271a6095991b08cbb5f53eaa8f71185074add2f23c7",
+      "size": 2537
+    },
+    {
+      "path": "methodology/ORCHESTRA/documents/ORCHESTRA_v2.0_WORKFLOW.md",
+      "sha256": "2e66aac69c94d88cfbb5a414b5174620525b42b736801e9af3fb18ad4127d540",
+      "size": 1576
+    },
+    {
+      "path": "methodology/ORCHESTRA/documents/ORCHESTRA_v2.1_ANCESTRY.md",
+      "sha256": "6645a9f89a49e26ce028557ff72b8f6474eac384ffd81f7a03b4f90a59e7b050",
+      "size": 754
+    },
+    {
+      "path": "methodology/ORCHESTRA/documents/ORCHESTRA_v2.1_CLOSEOUT.md",
+      "sha256": "00e22ac4bee3a552a00bdb0e50c2e62926787d3fce27de54d3e2b2a8517a4daf",
+      "size": 1135
+    },
+    {
+      "path": "methodology/ORCHESTRA/documents/RESEARCH_ANCESTRY_CUSTODY_STANDARD_v1.0_20260826.md",
+      "sha256": "08970fbbc0693c58c26bb8f912afb0513799f57dbce9417728ef2ea4478630b5",
+      "size": 5973
+    },
+    {
+      "path": "methodology/ORCHESTRA/documents/RESEARCH_AND_EVIDENCE_STANDARD_v1.0.1_20260821.md",
+      "sha256": "4dad970c0de6771bd7269a5917762c567ba5c2d5531b54b45c7d12bfd5c48d9a",
+      "size": 34122
+    },
+    {
+      "path": "public/reach/20260907_reach.ods",
+      "sha256": "79cb242cb97582e4dadd89dfc2b7b8d76368960caa25f9ee6c109ebab8bb5d34",
+      "size": 40900
+    },
+    {
+      "path": "public/reach/README.md",
+      "sha256": "904ffff26f64dd96f7c62be8704a612a643b9bbd29e57a97deaab2901c25ad8e",
+      "size": 602
+    },
+    {
+      "path": "public/reach/major-public-milestones.csv",
+      "sha256": "7fb186d2562b18c13a4c7da2cecdbeaf535e3db3fe3eb69e1010e7b89b546277",
+      "size": 10110
+    },
+    {
+      "path": "public/reach/public-release-timeline.csv",
+      "sha256": "20faf44a44241132811d25a75629dc95b6200851e34627892285b1f7e0e173ea",
+      "size": 33966
+    },
+    {
+      "path": "public/reach/reach.csv",
+      "sha256": "79d2fd1d09afa12dd8948c33794200b63578de219de2276cc6d60e1bd43ff218",
+      "size": 33966
+    },
+    {
+      "path": "records/analogistical-constructivism/project-status.md",
+      "sha256": "41b6744d34e56e0267b38e09d5e0362abd06ed3334641a3bc6128f0b429996c9",
+      "size": 650
+    },
+    {
+      "path": "records/cortex/CORTEX_ENGINE_RETAINED_BASELINE_20260726.md",
+      "sha256": "8b1e6b8511321db005f453749df284465a31f3b021ba4ef684cdf37cb082daa8",
+      "size": 45183
+    },
+    {
+      "path": "records/phase-calculus/Capacity_Coordinated_Inverse_Seed_Law_Working_Note_v0.3.docx",
+      "sha256": "9150bed4a3f3b336b7c9cf6a6ee5457191080b6d959d52817c4210bfdb3e5024",
+      "size": 41452
+    },
+    {
+      "path": "records/vll/RUN_LEDGER.json",
+      "sha256": "0f29a650a9703199e54aec5d1dac4a5a7ea17cb747ed279dfe601938d7ba602d",
+      "size": 7376
+    },
+    {
+      "path": "records/vll/RUN_MANIFEST.json",
+      "sha256": "68146a19805662870bc2bd7249b2ff202499a4be660883c03b33404e0ef616e3",
+      "size": 7632
+    },
+    {
+      "path": "records/vll/VLL_Rung1_Mechanism_Decision_v0.3.md",
+      "sha256": "f2cef32273202d59218409b24699c9410b2a0e228eaf67accc6d2b0d228a5228",
+      "size": 13838
+    },
+    {
+      "path": "schemas/MILESTONE_CLASSIFICATION.md",
+      "sha256": "60d08d2febabc3c6d1fe5da83b3ef10ecaa75f0bd2968d5b02bf20493e2572fc",
+      "size": 600
+    },
+    {
+      "path": "schemas/STATUS_ONTOLOGY.md",
+      "sha256": "9eef8f98f8e03ef6fab68c47da3f76fd5d13a5f7d74f4aebeabd3a93a87d5f86",
+      "size": 739
+    },
+    {
+      "path": "schemas/provenance-entry.schema.json",
+      "sha256": "926f76b3203d1dcf1b1e92e1ad53336ed1973af1e9d835433e2a490cecc1e19f",
+      "size": 1139
+    },
+    {
+      "path": "schemas/source-artifact.schema.json",
+      "sha256": "aae6a221f83b4989c907b0c052d33c8c999f4cbb1bb6d284ccbc7881ffc2ebc5",
+      "size": 907
+    },
+    {
+      "path": "scripts/update_hashes.py",
+      "sha256": "3c2a0fd647fd9d7da3791a269b62ad6a27fbe033eec4c199925886c1de85d8f6",
+      "size": 1187
+    },
+    {
+      "path": "scripts/validate_repo.py",
+      "sha256": "6199afdeaab80b22091fb84815f915c496f084294f259b33ce4161f2d37789af",
+      "size": 2184
+    },
+    {
+      "path": "source-index/source-artifact-index.csv",
+      "sha256": "58607cf0184496deff1820722e0b29b94cce9010043f1921709f121bdb272242",
+      "size": 3954
+    }
+  ]
 }
