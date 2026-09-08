@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "package_id": "p#-b#-v#",
+  "roots": [
+    {
+      "root_id": "ROOT001",
+      "kind": "repository",
+      "exact_path": "REPLACE_ME",
+      "uri": null,
+      "description": "REPLACE_ME"
+    }
+  ],
+  "ancestors": [
+    {
+      "ancestor_id": "A001",
+      "kind": "source_file",
+      "relation": "root_source",
+      "depth": 1,
+      "root_id": "ROOT001",
+      "relative_path": "REPLACE_ME",
+      "uri": null,
+      "sha256": "REPLACE_ME",
+      "manifest_sha256": null,
+      "authored_at": null,
+      "discovered_at": null,
+      "inherited_via": null,
+      "current_relevance": "controlling",
+      "scope": "REPLACE_ME",
+      "why_relevant": "REPLACE_ME"
+    }
+  ]
+}

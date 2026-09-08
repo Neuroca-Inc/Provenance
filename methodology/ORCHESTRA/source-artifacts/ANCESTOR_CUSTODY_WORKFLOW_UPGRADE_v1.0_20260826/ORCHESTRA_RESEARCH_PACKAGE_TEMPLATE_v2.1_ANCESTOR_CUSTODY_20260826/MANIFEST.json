@@ -1,0 +1,236 @@
+{
+  "manifest_version": "2.0.0",
+  "package_id": "p#-b#-v#",
+  "generated_at": "2026-08-26T23:40:29.616893+00:00",
+  "excluded_paths": [
+    "MANIFEST.json",
+    "SHA256SUMS"
+  ],
+  "files": [
+    {
+      "path": "ANCESTRY.json",
+      "size": 712,
+      "sha256": "31dcaaa712158442443b0b5c76128dc7c63584499ac1fc9c653834e4895ebdab"
+    },
+    {
+      "path": "ANCESTRY.md",
+      "size": 754,
+      "sha256": "6645a9f89a49e26ce028557ff72b8f6474eac384ffd81f7a03b4f90a59e7b050"
+    },
+    {
+      "path": "AUTHORITY.md",
+      "size": 692,
+      "sha256": "0af940e1abe544d301aaadbbaff6922edd83e2497743bb81714783cd2459d570"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 389,
+      "sha256": "34f3797fa8bd92854c47d8eec45bcee8c11bd7a4232deba18e45b8ef935de7c0"
+    },
+    {
+      "path": "CLAIMS.md",
+      "size": 616,
+      "sha256": "a44eaf0d9319e14e4c5ced7307a2569c09327bc3136ddbebce34cb4e72914f66"
+    },
+    {
+      "path": "CLOSEOUT.json",
+      "size": 675,
+      "sha256": "4c1d0039e94eb303b4fc5e24d6adf6b182bc78e012bae555e8bf05b7df17fba6"
+    },
+    {
+      "path": "CLOSEOUT.md",
+      "size": 1135,
+      "sha256": "00e22ac4bee3a552a00bdb0e50c2e62926787d3fce27de54d3e2b2a8517a4daf"
+    },
+    {
+      "path": "FINDINGS.md",
+      "size": 245,
+      "sha256": "bce5404f879599e24bbf3dd188fb29abb7e4e1b8be352fa6f59229c819afb350"
+    },
+    {
+      "path": "HANDOFF.md",
+      "size": 940,
+      "sha256": "e7aa7038f0cc137780eea19bb6bc05978be292bfd191080e5498bf5b093671a7"
+    },
+    {
+      "path": "LAB_JOURNAL.md",
+      "size": 344,
+      "sha256": "1f318bb32342cf1a13e1f59d9d6f2e8cd4c2b3c6babdb3099e071835c7311474"
+    },
+    {
+      "path": "PACKAGE.json",
+      "size": 728,
+      "sha256": "3d06a4630251327e7de28a63b8ba33160024a9e2c1989fd80a005dc54479b560"
+    },
+    {
+      "path": "README.md",
+      "size": 3279,
+      "sha256": "1b5517e5ffebe76724fea72b6bbcf09da8e471f5cf882c1f3efe0d8559d97083"
+    },
+    {
+      "path": "TEMPLATE_STATUS.md",
+      "size": 300,
+      "sha256": "6b4f1c401773ed26d0c68f098bce2ad934735e60abf6001804f04adbdc99eb19"
+    },
+    {
+      "path": "WORKFLOW.md",
+      "size": 2989,
+      "sha256": "a39e1baba9d2afd819b28559588b093e62994e7ab01a005598376c5be11ce293"
+    },
+    {
+      "path": "docs/DECISION_RECORD_TEMPLATE.md",
+      "size": 292,
+      "sha256": "40c27caec9a70dfbfba279c5ee933def5c0923d1da49fd1fc0cd8438d583608c"
+    },
+    {
+      "path": "docs/METHODS_TEMPLATE.md",
+      "size": 262,
+      "sha256": "9c237a2ac77edb4d434c71de6f2d0fd35f1b98ac7eb9f1ba00675e507e7a054d"
+    },
+    {
+      "path": "docs/README.md",
+      "size": 199,
+      "sha256": "c0b8f6e13d66f9da6f947d06937cc7b2154a08760257bf1946290674afb7c5d0"
+    },
+    {
+      "path": "docs/RESULTS_TEMPLATE.md",
+      "size": 245,
+      "sha256": "c46e9e5054e190aa38602517150a04b5e5316bbe6c9368ed1a0d1710da34f0b8"
+    },
+    {
+      "path": "figures/README.md",
+      "size": 256,
+      "sha256": "62f02072dc1a28686587f39a16044414ddcfa6f9ed725568608caa01c68a7a1b"
+    },
+    {
+      "path": "inputs/README.md",
+      "size": 199,
+      "sha256": "23ed650c213e84058d0b0bd9b4e7c904d59e1faa8d28c165610112e3aa5ca8db"
+    },
+    {
+      "path": "lean/README.md",
+      "size": 173,
+      "sha256": "3b1d38991d4815b33eb645ad5dc9be6f83906b0a9d344b3bb43c23b2738f25c3"
+    },
+    {
+      "path": "notebooks/README.md",
+      "size": 763,
+      "sha256": "dde7d5ad016303c3299202209a2436f2b364845565af6acdc1943eb0e3eae395"
+    },
+    {
+      "path": "output_data/README.md",
+      "size": 173,
+      "sha256": "25f60c00148b1586f2354182418deea29ffa76ca2196687f78f4110d07e1ec31"
+    },
+    {
+      "path": "review/AUDITOR_VERDICT_TEMPLATE.md",
+      "size": 360,
+      "sha256": "9cbe2637bbe76040da2df7886ea71846fc56a791d3a892a3ff9c2f4b15844c0b"
+    },
+    {
+      "path": "review/GUARDIAN_RATIFICATION_TEMPLATE.md",
+      "size": 414,
+      "sha256": "1ddbdddea30b9c3f93ecb43a6f134292cb7927fa4499b4728fed16227edc5d01"
+    },
+    {
+      "path": "review/README.md",
+      "size": 321,
+      "sha256": "8d82ce00aacc519a64c5fba0319b10c0d8cb75d5d53980f5f495e75cd695bbb6"
+    },
+    {
+      "path": "review/REVIEW_LOG.md",
+      "size": 125,
+      "sha256": "d851f336a35defdda1dfa4a55acb35782adfc898ffb85ae79cf600d012f21da8"
+    },
+    {
+      "path": "schemas/ancestry.schema.json",
+      "size": 402,
+      "sha256": "f21bf63eefc6ea19bc6dc9d47ddf889f559c44cb9646c3ea4d20d12bc3e97d81"
+    },
+    {
+      "path": "schemas/claim-record.schema.json",
+      "size": 607,
+      "sha256": "9a10c3b8f4d76c8f3396a97631acc75f3cf1c309306713c82eae1957be2e6bc0"
+    },
+    {
+      "path": "schemas/closeout.schema.json",
+      "size": 569,
+      "sha256": "d14ef71c95126591fc5659a3f83db1eced155b4cb6a1dcc0a8569fb318587f68"
+    },
+    {
+      "path": "schemas/manifest.schema.json",
+      "size": 539,
+      "sha256": "9e556b544a455d25bfb482496559affa1e0c555c5be0b8e24eff654ae21b697c"
+    },
+    {
+      "path": "schemas/package.schema.json",
+      "size": 751,
+      "sha256": "53a07299879e32bf2605435a1e02cb493cba3359aeb3d0a30ccdd78e5a9cfff9"
+    },
+    {
+      "path": "source_maps/README.md",
+      "size": 150,
+      "sha256": "99bcdc468c39524dbdd5ccfab222590d0feac29157fd88379a20b29f619b1582"
+    },
+    {
+      "path": "source_maps/SOURCE_MAP_TEMPLATE.md",
+      "size": 336,
+      "sha256": "480028b02e499c0303a0a10187c5f042f30a330272002e3f5b4685db87c21573"
+    },
+    {
+      "path": "src/README.md",
+      "size": 171,
+      "sha256": "c77f37534be55dfc8e57f3ade872c1f14f6021cae4b9299d579bd0408aad63af"
+    },
+    {
+      "path": "tools/README.md",
+      "size": 476,
+      "sha256": "5d9046a3ea36a8f1a5aebd5d04129486afd4434e9fee5a8da5876e90ed78d689"
+    },
+    {
+      "path": "tools/add_ancestor.py",
+      "size": 2294,
+      "sha256": "b6f9b6ae1a4e303f4d7866879731c3cc85aa6420014f315bb89f7c085d77fb51"
+    },
+    {
+      "path": "tools/build_manifest.py",
+      "size": 1819,
+      "sha256": "dc5f6e3050fe5588d9568a1b346266db86a0b5726b3fdaf1015332d30b1e1893"
+    },
+    {
+      "path": "tools/finalize_package.py",
+      "size": 1881,
+      "sha256": "97fff957f59651a864151766bcd48f5e23d46b2ec0993e831302ccdc683746ad"
+    },
+    {
+      "path": "tools/inherit_parent_ancestry.py",
+      "size": 2533,
+      "sha256": "a174bbbf652a61e077cd5e42a3da5ab68f7587e66e730c04e12e5ffd0ab4bf00"
+    },
+    {
+      "path": "tools/init_package.py",
+      "size": 3564,
+      "sha256": "7ccf2226316d50a91d1d38d47d2e0f85e03a531e9a361c3f21dbebce8c1923e8"
+    },
+    {
+      "path": "tools/new_claim_notebook.py",
+      "size": 2774,
+      "sha256": "8b7a758dc70fa01be84a50661c31da9ea752e8e03371d6c3fb5d1a4ff820b03c"
+    },
+    {
+      "path": "tools/prepare_closeout.py",
+      "size": 1013,
+      "sha256": "d39182a97ca43129a93b6444b6a0364c350de4fdbded46fa3354113dcde06a92"
+    },
+    {
+      "path": "tools/validate_package.py",
+      "size": 12439,
+      "sha256": "4fdca3db75751569bf30f5c06b1c153d459f563dabce53757f367f1a728ee43a"
+    },
+    {
+      "path": "trace_logs/README.md",
+      "size": 161,
+      "sha256": "9412ae4396977356fce471b078934e84d9fbf9cdec973164400d54b3d7d18d92"
+    }
+  ]
+}

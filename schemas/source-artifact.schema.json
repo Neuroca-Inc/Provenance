@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Neuroca source artifact record",
+  "type": "object",
+  "required": [
+    "artifact_id",
+    "source_container",
+    "original_path",
+    "sha256",
+    "classification",
+    "public_inclusion"
+  ],
+  "properties": {
+    "artifact_id": {
+      "type": "string"
+    },
+    "source_container": {
+      "type": "string"
+    },
+    "original_path": {
+      "type": "string"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "classification": {
+      "type": "string"
+    },
+    "authority_status": {
+      "type": "string"
+    },
+    "public_inclusion": {
+      "enum": [
+        "INCLUDED",
+        "HASH_ONLY",
+        "REVIEW_REQUIRED"
+      ]
+    },
+    "copied_path": {
+      "type": "string"
+    },
+    "staleness_risk": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

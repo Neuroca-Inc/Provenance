@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Neuroca provenance entry",
+  "type": "object",
+  "required": [
+    "entry_id",
+    "status",
+    "artifact",
+    "claim_or_result"
+  ],
+  "properties": {
+    "entry_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "recorded_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "status": {
+      "type": "string"
+    },
+    "artifact": {
+      "type": "string"
+    },
+    "claim_or_result": {
+      "type": "string"
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "supersedes_or_corrects": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sha256": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "source_uri": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

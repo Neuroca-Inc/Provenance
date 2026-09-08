@@ -1,0 +1,23 @@
+Git_ID,Existing_Entry_ID,Relationship,Rationale
+VDM-G003,PC-0016,PUBLIC_GIT_PRECURSOR,November 2025 Git commit publicly timestamps the CF10 lattice-hydrodynamics program before the later Phase Calculus regularity closure.
+VDM-G006,PC-0001,FOUNDATIONAL_LINEAGE,H000 immediately precedes and feeds the CF000 foundational line.
+VDM-G007,PC-0001,DIRECT_GIT_EVIDENCE,CF000 primitive-distinguishability artifact is directly timestamped in Git.
+VDM-G008,PC-0001,CANON_CUSTODY,Canon-ledger work provides claim-status/custody infrastructure around the foundational period.
+VDM-G009,PC-0001,FOUNDATIONAL_LINEAGE,A_minus_one primitive-kernel artifact sits directly upstream of the March 24 Farey development.
+PBL-G001,PC-0001,EXPERIMENTAL_DISCRIMINATOR,Corrected executable successor-mutation test probes primitive class admission while preserving the failed prior interpretation.
+PBL-G002,PC-0001,NEGATIVE_PROVENANCE,Removal of a prior programmable-reference artifact is preserved as a distinct historical event.
+TAO-G001,PC-0013,DERIVATION_PHASE,Phase 5 v8 begins the intensive QBL/Orthad derivation branch.
+TAO-G002,PC-0013,CANON_CUSTODY,Phase 5 canonical ledger formalizes status/custody.
+TAO-G003,PC-0012,ORTHAD_DEVELOPMENT,Orthad-generated structure enters Phase 5.
+TAO-G004,PC-0013,VERIFICATION_LAYER,Verification script + sealed JSON evidence.
+TAO-G005,PC-0013,AUDIT_LAYER,External audit and radical-purity diagnosis.
+TAO-G007,PC-0018,DERIVATION_EVIDENCE,Recurrent-grammar commit contains QBL carry-J derivation and associated formal/audit evidence.
+TAO-G008,PC-0018,THRESHOLD_DERIVATION,Threshold derivation made executable and package-verified.
+TAO-G009,PC-0018,PROOF_TRACE,Factor and induction proof traces preserve intermediate derivation provenance.
+TAO-G010,PC-0013,ORTHAD_RECURRENCE,Publicly timestamps the Orthad pairing work before later closure.
+TAO-G011,PC-0013,CANON_CONSOLIDATION,Canon documents and extracted findings consolidate the Phase 5 custody state.
+CTX-G001,PC-0014,IMPLEMENTATION_BASELINE,Cortex repository baseline for the implementation branch.
+CTX-G003,PC-0014,IMPLEMENTATION_CHECKPOINT,CP20 is the implementation substrate checkpoint.
+CTX-G004,PC-0015,EXPLICIT_BOUNDARY,CP20 retrospective preserves rejected coupling and Xi integration blocker.
+CTX-G005,PC-0017,IMPLEMENTATION_TRANSITION,Orthad and Lifted Object implementation begins after CP20.
+CTX-G009,PC-0017,RETAINED_BASELINE,Later commit updates the walkthrough and adds a retained Cortex baseline.

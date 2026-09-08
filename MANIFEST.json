@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "repository": "Neuroca-Inc/Provenance",
+  "prepared_date": "2026-09-07",
+  "purpose": "Auditable cross-project research, methodology, artifact, correction, and lineage custody.",
+  "canonical_machine_surfaces": [
+    "ledgers/git-milestones.csv",
+    "ledgers/git-crosslinks.csv",
+    "ledgers/methodology-lineage.csv",
+    "ledgers/source-artifact-index.csv",
+    "ledgers/provenance-candidates.csv"
+  ],
+  "analysis_surface": "ledgers/active-provenance-ledger.xlsx",
+  "source_archive_hash_manifest": "hashes/SOURCE_ARCHIVES_SHA256SUMS.txt",
+  "selected_artifact_hash_manifest": "hashes/SELECTED_ARTIFACTS_SHA256SUMS.txt",
+  "file_count_excluding_root_sha256sums": 224,
+  "privacy_model": "Private source archives are hash-anchored; only deliberately selected artifacts are copied."
+}

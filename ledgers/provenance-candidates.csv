@@ -1,0 +1,7 @@
+Candidate_ID,Source_Artifact_ID,Candidate,Action,Priority,Reason,Current_State
+CAND-001,SRC-PC-001,Phase Calculus derivation standards,Review for a public custody-method excerpt or sanitized publication,HIGH,Contains strong path-first/no-provenance-amnesia methodology but also internal source paths.,HASH_ONLY
+CAND-002,SRC-AC-002,Analogistical Constructivism deep research draft,Review before any public inclusion,LOW,Potential project provenance but not needed for the core Phase Calculus/ORCHESTRA spine.,HASH_ONLY
+CAND-003,SRC-AC-003,Analogistical Constructivism research archive,Keep private hash anchor unless a specific lineage question requires it,LOW,Large historical source with uncertain public relevance.,HASH_ONLY
+CAND-004,,Cairn first artifact / repository,Locate exact first artifact and first major commits,HIGH,"Sequence after ORCHESTRA is established, but exact artifact/Git custody is not yet attached.",OPEN
+CAND-005,,ORCHESTRA earliest pre-v2.0 artifact,Locate first ORCHESTRA implementation/formalization artifact in Taoism/Active-Study history,HIGH,v2.0 and v2.1 are concrete later artifacts; earliest genesis still needs exact coordinates.,OPEN
+CAND-006,,PhaseOS Git history,Recover public/private history or local git log,MEDIUM,Supplied public URL did not resolve in prior Git pass.,OPEN
