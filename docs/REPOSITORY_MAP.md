@@ -10,3 +10,7 @@ The repository is organized by evidence class, not by implementation project.
 - `records`: selected wording-sensitive historical records
 - `source-index`: omitted-source custody
 - `ledgers`: cross-surface indexes
+
+- `source-index/research-crosswalk.csv`: research relationships, local goals and limits
+- `docs/RESEARCH_STATE.md`: current authority and scoped successor lineage
+- `historical/snapshots/2026-09-07`: unchanged original index/workbook/chronology/manifest records

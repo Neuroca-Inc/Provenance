@@ -1,5 +1,7 @@
 # Chronology and Dependency Chain
 
+> Historical September account, preserved below. Current authority and successor scope are in [Current research state](../docs/RESEARCH_STATE.md) and the active ledger. CF19 is ancestry rather than a current baseline; the classical-global-regularity CF10 claim is rejected; walkthrough v1.0.2 controls native Orthad behavior. Scoped successors do not retroactively validate earlier claims. The unchanged chronology is retained under `historical/snapshots/2026-09-07/chronology/`.
+
 **CF000**
   ↓
 **derives the primitive condition:**

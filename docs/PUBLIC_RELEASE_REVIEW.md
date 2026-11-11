@@ -25,7 +25,7 @@ The following are anchored but not copied:
 
 ## Before pushing public
 
-Review `ledgers/source-artifact-index.csv` for every row marked:
+Review `source-index/source-artifact-index.csv` for every row marked:
 
 - `HASH_ONLY`
 - `REVIEW_REQUIRED`
@@ -33,3 +33,15 @@ Review `ledgers/source-artifact-index.csv` for every row marked:
 - `HISTORICAL_BASELINE`
 
 Those labels are part of the artifact's provenance and should remain visible if the artifact is published.
+
+## Preserved source/copy discrepancy
+
+`SRC-ORCH-003` asserts source SHA-256
+`ead6071e69929376f52061c3bdf17cfb7befaae25c1aa936b4474f09cd81a4f9`.
+The included Research and Evidence Standard file has copied-byte SHA-256
+`4dad970c0de6771bd7269a5917762c567ba5c2d5531b54b45c7d12bfd5c48d9a`,
+also recorded in `methodology/ORCHESTRA/artifact-index.csv`. Both assertions and
+the historical file bytes are preserved. The cause of the discrepancy and the
+identity of the omitted upstream source remain unresolved. Validation warns for
+this exact known pair; it does not treat the two digests as equal or independently
+verify an omitted archive. Any other copied-byte discrepancy fails validation.

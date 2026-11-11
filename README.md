@@ -21,7 +21,8 @@ It deliberately does **not** mirror Neuroca's research or production repositorie
 | `methodology/Cairn/` | The post-ORCHESTRA methodology frontier |
 | `records/` | A small number of dated/corrective research records whose historical wording itself is provenance evidence |
 | `source-index/` | Hash/source-coordinate custody for omitted private or bulky artifacts |
-| `ledgers/active-provenance-ledger.xlsx` | Human analysis view over the canonical CSV surfaces |
+| `ledgers/active-provenance-ledger.xlsx` | Refreshed human analysis view over canonical CSVs; original workbook retained under historical snapshots |
+| `docs/RESEARCH_STATE.md` and `source-index/research-crosswalk.csv` | Current authority, scoped successors, research relationships and local goals |
 
 ## Public release corpus
 
@@ -44,7 +45,13 @@ When a result changes, preserve the old record and add the correction. Never cle
 
 Those remain recoverable through repository URLs, commit SHAs, archive hashes, package hashes, and source coordinates recorded here.
 
+## Current research reconciliation
+
+The November 11 reconciliation supplies standalone research-state summaries with repository-local references. It preserves original records, indexes seven previously omitted Navier–Stokes correction files, recovers the two workbook-only methodology records, and distinguishes current Orthad v1.0.2 authority from historical CF19 and rejected global-regularity claims. See [Current research state](docs/RESEARCH_STATE.md) for scoped successors and local goals.
+
 ## Start here
+
+0. `docs/RESEARCH_STATE.md` and `source-index/research-crosswalk.csv`
 
 1. `ledgers/master-evidence-index.csv`
 2. `chronology/phase-calculus-chronology.md`
