@@ -1,9 +1,12 @@
 {
   "repository": "Neuroca-Inc/Provenance",
   "purpose": "thin cross-project provenance and custody graph",
-  "generated": "2026-09-07",
-  "evidence_rows": 274,
-  "file_count_excluding_manifest_and_sha256sums": 56,
+  "format_version": 2,
+  "generator": "scripts/update_hashes.py",
+  "hash_algorithm": "SHA256",
+  "evidence_rows": 282,
+  "source_artifact_rows": 21,
+  "file_count_excluding_manifest_and_sha256sums": 75,
   "files": [
     {
       "path": ".gitattributes",
@@ -12,8 +15,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "4b9a927c0fe4c3db5b1b21b8ab0279e13335eb4c66290f966b3451b76f91b4f2",
-      "size": 333
+      "sha256": "a03921d448ef465856f5725b4295637a456be74b037874014fd45d01f4446891",
+      "size": 387
     },
     {
       "path": ".gitignore",
@@ -22,13 +25,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "1407309bef0603ec9b61f26e84c50520f47662d1eafc96fb67f0072059cf6ff3",
-      "size": 2990
+      "sha256": "5a608d0a4c37a798746f9b436e29fc2433d9d6ee065c1dc2cefeb906ef44a0ed",
+      "size": 3763
     },
     {
       "path": "STATUS.md",
-      "sha256": "ff64a310aaa352dbfac389333b23aeb78bcd01b708ffd4becee9c34d536f41d6",
-      "size": 444
+      "sha256": "442c7f18f0253d73c591fb4691b80eb1d9aa95681772a92b82a6014f1afde4e2",
+      "size": 1129
     },
     {
       "path": "bootstrap.sh",
@@ -37,8 +40,8 @@
     },
     {
       "path": "chronology/phase-calculus-chronology.md",
-      "sha256": "ae1389b1095d7c5da0e2b715e937e5573da981e6e00bc20f2d98a7cfbadf23ac",
-      "size": 5586
+      "sha256": "bd31cfa15f3306a9f5109247a868690a1142b94b7b88a32f62f22a855ee99ae6",
+      "size": 6067
     },
     {
       "path": "docs/AUTHORITY_MODEL.md",
@@ -52,28 +55,33 @@
     },
     {
       "path": "docs/PUBLIC_RELEASE_REVIEW.md",
-      "sha256": "d165b70556b9122e8d180dfb67b01c16dcc2489419c6103bfb881b18b9013039",
-      "size": 1214
+      "sha256": "eed4a3647ece0fee693950491c48bc8c493047ed6ebbd8b3d7fe0feed5afdfaa",
+      "size": 1906
     },
     {
       "path": "docs/REPOSITORY_MAP.md",
-      "sha256": "8919c9792ef7b32ea3300f332fca39c25da07f7d624bf3a6f9e37e82b31fc252",
-      "size": 456
+      "sha256": "d888ec2c76c52005ba572fff4af167c4b01d3c4dc20b01519825ec3963a10429",
+      "size": 719
+    },
+    {
+      "path": "docs/RESEARCH_STATE.md",
+      "sha256": "233acfd1025c1347216d6f4abfd61a7b7d58d2c9c5fe0cfa9c278fbd9b270ae9",
+      "size": 7310
     },
     {
       "path": "git-history/git-crosslinks.csv",
-      "sha256": "92b0b538499e5a9787de0ec47f80a231c12451b48454a785a8500c60c21059d6",
-      "size": 2503
+      "sha256": "c93e37b4c4cacbbb65f85f2e3a5a9e4bad5697ddea93ca346076aeb3ef51f348",
+      "size": 2480
     },
     {
       "path": "git-history/git-milestones.csv",
-      "sha256": "fd3f1dface2a370fd1892b777bfc15d8e189774b27578b6e167fbed7ebd136cc",
-      "size": 21973
+      "sha256": "2043d7877952c737f9b3deea61707eae8ded5cc03d83c2b446d8bb32ff8ff637",
+      "size": 21927
     },
     {
       "path": "hashes/SELECTED_ARTIFACTS_SHA256SUMS.txt",
-      "sha256": "0f1b06ab18a6b9e1081eb00df37e1897c1ecc06ba9dc991555f7c2a784b727d3",
-      "size": 5183
+      "sha256": "48b363822f736720758732ac6ffcef73d6588fc6fa262dbaff5549b74bff51d5",
+      "size": 8272
     },
     {
       "path": "hashes/SOURCE_ARCHIVES_SHA256SUMS.txt",
@@ -102,33 +110,73 @@
     },
     {
       "path": "historical/legacy-cf/legacy-cf-index.csv",
-      "sha256": "9ceae3e9f635accbaae15d922d58f331961fba13601b0deb03302b0241a56e25",
-      "size": 7223
+      "sha256": "d1c07ab36be4f97c80d35bf24841cc122b5a0b00815bcfc6a68752550f5a65de",
+      "size": 7201
     },
     {
-      "path": "ledgers/active-provenance-ledger.csv",
-      "sha256": "a05b942b92b16c3fe476123d4e3e9950e600a4f1a9983e5edbfda4d268164e18",
-      "size": 8911
+      "path": "historical/snapshots/2026-09-07/MANIFEST.json",
+      "sha256": "6f10e4530f37f886b3c33cd84dafe8519b9b1a0f0677374c0911e35d36fbad02",
+      "size": 10044
     },
     {
-      "path": "ledgers/active-provenance-ledger.xlsx",
+      "path": "historical/snapshots/2026-09-07/README.md",
+      "sha256": "acc9df0afe8c280aa8c734e1ff7a14a1c142934a15a05ef2b997955c84e02998",
+      "size": 821
+    },
+    {
+      "path": "historical/snapshots/2026-09-07/SHA256SUMS",
+      "sha256": "45729bb604d73a374201c7eda64eeaebb5e8f72e0404a6d34739f66e61627161",
+      "size": 6142
+    },
+    {
+      "path": "historical/snapshots/2026-09-07/chronology/phase-calculus-chronology.md",
+      "sha256": "ae1389b1095d7c5da0e2b715e937e5573da981e6e00bc20f2d98a7cfbadf23ac",
+      "size": 5586
+    },
+    {
+      "path": "historical/snapshots/2026-09-07/hashes/SELECTED_ARTIFACTS_SHA256SUMS.txt",
+      "sha256": "0f1b06ab18a6b9e1081eb00df37e1897c1ecc06ba9dc991555f7c2a784b727d3",
+      "size": 5183
+    },
+    {
+      "path": "historical/snapshots/2026-09-07/ledgers/active-provenance-ledger.csv",
+      "sha256": "b2fc826293195e311b56aae8c053ffe35f2f4772eb4af4703d65c6858bba3358",
+      "size": 8892
+    },
+    {
+      "path": "historical/snapshots/2026-09-07/ledgers/active-provenance-ledger.xlsx",
       "sha256": "451950f13541106ee6c7bc4b9b55911d9f84e6aa23b45b199e869889633b0575",
       "size": 99625
     },
     {
+      "path": "historical/snapshots/2026-09-07/ledgers/master-evidence-index.csv",
+      "sha256": "87f7d025f911d4cd1cc913fe8b289b67a671ab0b0a3691a4359fc6472e4f427e",
+      "size": 71368
+    },
+    {
+      "path": "ledgers/active-provenance-ledger.csv",
+      "sha256": "b5a275747d57d6fafb48295bc05bb3d8e74643decb723b2c9c03ba51783fbca1",
+      "size": 15163
+    },
+    {
+      "path": "ledgers/active-provenance-ledger.xlsx",
+      "sha256": "4bc31d4b2ba963254d2bda23c6d57a1c4e59f848cc6c84d3a0816e2f9bcb2631",
+      "size": 107588
+    },
+    {
       "path": "ledgers/master-evidence-index.csv",
-      "sha256": "a51fbd175c2177211d68051fbd53a8a04e1c0fe8601a473c0dad8f64087ef502",
-      "size": 71643
+      "sha256": "f024a64136f0dece358b6c7244a7a549cf2c6050fe3699e3887b2b7388ade7fc",
+      "size": 74698
     },
     {
       "path": "ledgers/methodology-lineage.csv",
-      "sha256": "50f4bb45698efd2cc2e66a2e3d9a030eca093b2115f912fdf885c5f2a77f41ed",
-      "size": 3434
+      "sha256": "c840987df9eec04b93d0053a177e9dc45ee819f2ddc05fe170ab9018e203d226",
+      "size": 3427
     },
     {
       "path": "ledgers/provenance-candidates.csv",
-      "sha256": "8a40e6d807d06d178711372f7df9a0c89d41c56ba6b21cb409abea7a6ae599bd",
-      "size": 1321
+      "sha256": "7ef7c62069141ae914cb5bb9c51ab7a0a1f8d86a7f419196895cf69be46754be",
+      "size": 1314
     },
     {
       "path": "methodology/Cairn/README.md",
@@ -142,8 +190,8 @@
     },
     {
       "path": "methodology/ORCHESTRA/artifact-index.csv",
-      "sha256": "fb5df580b2719c03fdafe72dc59a5d05988af26ca8c89ea5b59d0faff2d46b68",
-      "size": 1915
+      "sha256": "d7102e2398b6a5c5e37290e3a79f01f1825bd4777cc77359d8d371c3e8c65692",
+      "size": 1904
     },
     {
       "path": "methodology/ORCHESTRA/documents/ANCESTOR_CUSTODY_WORKFLOW_UPGRADE_v1.0_README.md",
@@ -207,18 +255,58 @@
     },
     {
       "path": "public/reach/major-public-milestones.csv",
-      "sha256": "7fb186d2562b18c13a4c7da2cecdbeaf535e3db3fe3eb69e1010e7b89b546277",
-      "size": 10110
+      "sha256": "cff473dbf7ed8a9ebcb4a737c319d047ec6eea30c080b5e94f4042aa531346e7",
+      "size": 10055
     },
     {
       "path": "public/reach/public-release-timeline.csv",
-      "sha256": "20faf44a44241132811d25a75629dc95b6200851e34627892285b1f7e0e173ea",
-      "size": 33966
+      "sha256": "c2fd496956ec3bd817b56e927552c81e74afea2d3fc4a9b95e5eed5806acb2d9",
+      "size": 33777
     },
     {
       "path": "public/reach/reach.csv",
-      "sha256": "79d2fd1d09afa12dd8948c33794200b63578de219de2276cc6d60e1bd43ff218",
-      "size": 33966
+      "sha256": "1a46731595ecdbe798b05b441ebedd788f64dbee5b49244c9e4c2fc2bc2cc79c",
+      "size": 33777
+    },
+    {
+      "path": "records/Navier-Stokes/CF10_NAVIER_STOKES_POLARITY_LOCK.md",
+      "sha256": "b2ce227325519d72b6f7817025b9788500e364fc7ba5d502b29a054747d11c46",
+      "size": 2712
+    },
+    {
+      "path": "records/Navier-Stokes/CF10_RECOVERY_PROOF_01_interface_accumulation.md",
+      "sha256": "0adfa053ccd7edfb435a57fc4551cd167c56688f6fd14432a2764c47b7111341",
+      "size": 5163
+    },
+    {
+      "path": "records/Navier-Stokes/LIR_CF10_OPENAI_PROVENANCE_AND_PERIMETER_PROOF_v2.md",
+      "sha256": "a1756fbb0fa560e02ff636bce31f088b444b3bee2e0863f71ff9c9ee115f97a3",
+      "size": 23354
+    },
+    {
+      "path": "records/Navier-Stokes/LIR_CF10_OpenAI_Provenance_Correction.md",
+      "sha256": "6a3928ac1a1a20fec026b38c9ff283363df6794699d406b141cbe7f97da0e0f4",
+      "size": 4771
+    },
+    {
+      "path": "records/Navier-Stokes/MASTER_PROVENANCE_RECOVERY_DOSSIER_v0.2.md",
+      "sha256": "6e5beb54e6d29c36094325237b409d40badeba73916f12a8d7dce9c4184f3fe3",
+      "size": 33096
+    },
+    {
+      "path": "records/Navier-Stokes/MASTER_PROVENANCE_RECOVERY_DOSSIER_v0.3.md",
+      "sha256": "c7b4db0e2ba645d7add15cbe7db606ff771737c239fc8a3562112fc94e0ed2b0",
+      "size": 37886
+    },
+    {
+      "path": "records/Navier-Stokes/MASTER_PROVENANCE_RECOVERY_DOSSIER_v0.5.md",
+      "sha256": "40a692c640506e57ec76c1823607a360579aed339be8df35492d8de3d86074be",
+      "size": 40554
+    },
+    {
+      "path": "records/Navier-Stokes/README.md",
+      "sha256": "41c60c8e8f7986706b7a77ca708773414cfb7bac4afa4e043ffc65be90a7d803",
+      "size": 4960
     },
     {
       "path": "records/analogistical-constructivism/project-status.md",
@@ -267,23 +355,33 @@
     },
     {
       "path": "schemas/source-artifact.schema.json",
-      "sha256": "aae6a221f83b4989c907b0c052d33c8c999f4cbb1bb6d284ccbc7881ffc2ebc5",
-      "size": 907
+      "sha256": "e2d966ea389144b57e404fb1bdddcfe883d02382c12e97e3391fa8f9d7d7f7d1",
+      "size": 1455
     },
     {
       "path": "scripts/update_hashes.py",
-      "sha256": "3c2a0fd647fd9d7da3791a269b62ad6a27fbe033eec4c199925886c1de85d8f6",
-      "size": 1187
+      "sha256": "05a477c51ee36a896ad80c6d6a82c92e91273d5a10bcff5d895747f69c4a081b",
+      "size": 5281
     },
     {
       "path": "scripts/validate_repo.py",
-      "sha256": "6199afdeaab80b22091fb84815f915c496f084294f259b33ce4161f2d37789af",
-      "size": 2184
+      "sha256": "02de6aede2e923f48b682a8e7d7ea8605a083ab8b0430b3f6993bf16e34ce63e",
+      "size": 14120
+    },
+    {
+      "path": "source-index/research-crosswalk.csv",
+      "sha256": "7bb9412d2e21af766327c40de94c366bc062d3285f41a2b2cbc9550e367c017d",
+      "size": 2461
     },
     {
       "path": "source-index/source-artifact-index.csv",
-      "sha256": "58607cf0184496deff1820722e0b29b94cce9010043f1921709f121bdb272242",
-      "size": 3954
+      "sha256": "4b2960996a86b845e360f6291e9ff9242f35a5a2a422f67d8ce43ca804fe34d1",
+      "size": 8286
+    },
+    {
+      "path": "tests/test_repo_integrity.py",
+      "sha256": "827a6646d9389c72c50c8f95d38962f39c4da5f84b8c8c517863af93ad2cc831",
+      "size": 17550
     }
   ]
 }

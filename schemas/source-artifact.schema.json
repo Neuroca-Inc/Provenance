@@ -22,7 +22,8 @@
     },
     "sha256": {
       "type": "string",
-      "pattern": "^[0-9a-f]{64}$"
+      "pattern": "^[0-9a-f]{64}$",
+      "description": "Digest asserted for the identified source artifact or package. INCLUDED exact-byte copies should match; selected documents/packages may require a separate copied-byte digest and an explicit discrepancy record."
     },
     "classification": {
       "type": "string"
@@ -33,6 +34,8 @@
     "public_inclusion": {
       "enum": [
         "INCLUDED",
+        "SELECTED_DOC",
+        "SELECTED_DOCS",
         "HASH_ONLY",
         "REVIEW_REQUIRED"
       ]
@@ -44,5 +47,6 @@
       "type": "string"
     }
   },
-  "additionalProperties": true
+  "additionalProperties": true,
+  "description": "Normalized source-artifact record. CSV columns use display names (for example Artifact_ID, Original_Path_or_Artifact and SHA256). Source/package digests may differ from selected copied-document digests; do not silently replace either assertion."
 }
